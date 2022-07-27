@@ -1,0 +1,170 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+
+    
+  }
+.one {
+    background-color: #152937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.pawImg {
+    width: 50px;
+    height: auto;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header1 {
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;  
+}
+
+button {
+    background-color: rgb(87, 138, 225);
+    color: white;
+    border: 1px solid #ddd;
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
+
+.image {
+    width: 350px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+
+.header2{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    
+       
+}
+
+.secondLeft{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    text-align: left;
+    
+    
+}
+
+.one {
+    padding: 10px 150px 50px 150px;
+    align-content: space-between;
+}
+
+footer {
+    background-color: #152937;
+    color: rgb(255, 255, 255,0.9);
+    text-align: center;
+    padding: 40px;    
+}
+
+
+.headerfour { 
+    display:flex;
+    flex-direction:column;
+    color: white;
+    flex: 1;
+    
+}
+h3 {
+    margin:0;
+}
+.four p {
+    margin: 0;
+    font-size:14px;
+    color: rgba(255,255,255,0.7)
+    
+}
+.four {
+    display: flex;
+    background-color: rgb(83, 131, 213);
+    margin: 80px 150px;
+    border-radius: 15px;
+    padding: 20px 50px;
+    justify-content: space-between;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    flex: 0;
+}
+
+.three {
+    background-color: #cac9c9;
+    color: #1f2937;
+    font-size: 36px;
+    font-style:italic;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+}
+
+.three .wrap {
+    max-width: 50ch;
+    align-self: center;
+    margin: 50px 0px;
+}
+
+.three p.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: black;
+    font-weight: lighter;
+}
+.quotedby {
+    font-size: 18px;
+    text-align: right;
+    color: black ;
+    font-weight: bold;
+}
+.wrap p {
+    margin:0;
+}
+
+.titletwo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.nested {
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+.two {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 30px;
+}
+
+
+
